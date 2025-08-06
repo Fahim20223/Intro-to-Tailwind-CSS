@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./tailwind.css" />
+  </head>
+  <body>
+    <head>
+      <div
+        class="banner mt-12 bg-black lg:flex lg:justify-between lg:items-center max-w-7xl w-full mx-auto rounded-4xl"
+      >
+        <div class="banner-left text-white p-5 ml-9">
+          <h1 class="Poppins font-semibold text-5xl lg:font-bold lg:text-7xl">
+            The Greatest <br class="hidden lg:block" />
+            show on the <br class="hidden lg:block" />
+            earth
+          </h1>
+          <p class="py-3">
+            Contrary to popular belief, Lorem Ipsum is not simply
+            <br class="hidden lg:block" />
+            random text. It has roots in a piece of classical Latin
+            literature<br class="hidden lg:block" />
+            from 45 BC, making it over 2000 years old.
+          </p>
+          <button class="bg-red-500 py-3 px-7 rounded-2xl">Watch Live</button>
+        </div>
+        <div class="banner-right mt-5 animate-pulse">
+          <img src="./img/banner/banner-img.png" alt="" />
+        </div>
+      </div>
+    </head>
+    <main class="">
+      <div class="lg:flex lg:gap-7 max-w-7xl mx-auto my-9">
+        <div
+          class="left-box grid grid-rows-3 gap-4 lg:w-1/5 p-4 rounded-2xl bg-black lg:h-fit"
+        >
+          <button class="bg-red-500 py-3 px-7 rounded-2xl">
+            Upcoming Match
+          </button>
+          <button class="bg-white py-3 px-7 rounded-2xl">All Group</button>
+          <button class="bg-white py-3 px-7 rounded-2xl">Blog</button>
+        </div>
+        <div class="lg:grid grid-cols-3 overflow-hidden">
+          <div class="">
+            <img
+              class="lg:h-[187px] lg:w-full"
+              src="./img/matches/matches_1.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="">
+            <img
+              class="lg:h-[187px] lg:w-full"
+              src="./img/matches/matches_2.webp"
+              alt=""
+            />
+          </div>
+          <div class="">
+            <img
+              class="lg:h-[187px] lg:w-full"
+              src="./img/matches/matches_3.jpg"
+              alt=""
+            />
+          </div>
+          <div class="">
+            <img
+              class="lg:h-[187px] lg:w-full w-full"
+              src="./img/matches/matches_4.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="">
+            <img
+              class="lg:h-[187px] lg:w-full"
+              src="./img/matches/matches_5.webp"
+              alt=""
+            />
+          </div>
+          <div class="">
+            <img
+              class="lg:h-[187px] lg:w-full"
+              src="./img/matches/matches_6.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
